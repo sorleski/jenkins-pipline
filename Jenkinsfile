@@ -18,6 +18,11 @@ pipeline {
             bat 'echo \'the end\''
           }
         }
+        stage('') {
+          steps {
+            bat 'echo "you suck"'
+          }
+        }
       }
     }
   }
