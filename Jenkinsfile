@@ -18,7 +18,7 @@ pipeline {
             bat 'echo \'the end\''
           }
         }
-        stage('') {
+        stage('Stage4') {
           steps {
             bat 'echo "you suck"'
           }
